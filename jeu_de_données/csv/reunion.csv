@@ -1,0 +1,11 @@
+idReunion,dateReunion,itule,nomMachine,idLieu
+R01,2025-05-01,Lancement Annuel,MAC-01,L001
+R02,2025-05-15,Bilan Trimestre,MAC-02,L002
+R03,2025-06-01,Séminaire Tech,MAC-03,L003
+R04,2025-06-15,Workshop R&D,MAC-04,L004
+R05,2025-07-01,Comité Direction,MAC-05,L005
+R06,2025-07-20,Point Securité,MAC-06,L006
+R07,2025-08-05,Démo Produit,MAC-07,L007
+R08,2025-08-25,Session Qualité,MAC-08,L008
+R09,2025-09-10,Planification,MAC-09,L009
+R10,2025-10-01,Célébration,MAC-10,L010
