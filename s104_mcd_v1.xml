@@ -140,34 +140,11 @@
       </PK>
    </Table>
    <Table>
-<<<<<<< HEAD
-      <Name>TYPE_ENTRETIEN</Name>
-      <Column>
-         <Name>idTypeEntretien</Name>
-         <Type>INT</Type>
-      </Column>
-      <Column>
-         <Name>description</Name>
-         <Type>TEXT</Type>
-      </Column>
-      <Column>
-         <Name>periodicite</Name>
-         <Type>TEXT</Type>
-      </Column>
-      <PK>
-         <Key>idTypeEntretien</Key>
-      </PK>
-   </Table>
-   <Table>
-=======
->>>>>>> origin/vlad
       <Name>MODELE</Name>
       <Column>
          <Name>nomModele</Name>
          <Type>VARCHAR(50)</Type>
       </Column>
-<<<<<<< HEAD
-=======
       <Column>
          <Name>typeEntretien</Name>
          <Type>VARCHAR(50)</Type>
@@ -176,14 +153,11 @@
          <Name>periodiciteEntretien</Name>
          <Type>TEXT</Type>
       </Column>
->>>>>>> origin/vlad
       <PK>
          <Key>nomModele</Key>
       </PK>
    </Table>
    <Table>
-<<<<<<< HEAD
-=======
       <Name>INGREDIENT</Name>
       <Column>
          <Name>nomIngredient</Name>
@@ -194,7 +168,6 @@
       </PK>
    </Table>
    <Table>
->>>>>>> origin/vlad
       <Name>TENRAC</Name>
       <Column>
          <Name>codeTenrac</Name>
@@ -361,25 +334,13 @@
       <Name>ENTRETIEN</Name>
       <Column>
          <Name>idEntretien</Name>
-<<<<<<< HEAD
-         <Type>VARCHAR(50)</Type>
-=======
          <Type>INT</Type>
->>>>>>> origin/vlad
       </Column>
       <Column>
          <Name>date_</Name>
          <Type>DATE</Type>
       </Column>
       <Column>
-<<<<<<< HEAD
-         <Name>idTypeEntretien</Name>
-         <Type>INT</Type>
-         <Property>NOT NULL</Property>
-      </Column>
-      <Column>
-=======
->>>>>>> origin/vlad
          <Name>nomMachine</Name>
          <Type>VARCHAR(50)</Type>
          <Property>NOT NULL</Property>
@@ -398,13 +359,6 @@
          <Key>idEntretien</Key>
       </PK>
       <FK>
-<<<<<<< HEAD
-         <Key>idTypeEntretien</Key>
-         <Reference>TYPE_ENTRETIEN(idTypeEntretien)</Reference>
-      </FK>
-      <FK>
-=======
->>>>>>> origin/vlad
          <Key>nomMachine</Key>
          <Reference>MACHINE(nomMachine)</Reference>
       </FK>
@@ -564,53 +518,11 @@
       </FK>
    </Table>
    <Table>
-<<<<<<< HEAD
-      <Name>constitue3</Name>
-      <Column>
-         <Name>nomA</Name>
-         <Type>VARCHAR(50)</Type>
-      </Column>
-=======
       <Name>compose</Name>
->>>>>>> origin/vlad
       <Column>
          <Name>nomSauce</Name>
          <Type>VARCHAR(50)</Type>
       </Column>
-<<<<<<< HEAD
-      <PK>
-         <Key>nomA, nomSauce</Key>
-      </PK>
-      <FK>
-         <Key>nomA</Key>
-         <Reference>ALIMENT(nomA)</Reference>
-      </FK>
-      <FK>
-         <Key>nomSauce</Key>
-         <Reference>SAUCE(nomSauce)</Reference>
-      </FK>
-   </Table>
-   <Table>
-      <Name>depend</Name>
-      <Column>
-         <Name>idTypeEntretien</Name>
-         <Type>INT</Type>
-      </Column>
-      <Column>
-         <Name>nomModele</Name>
-         <Type>VARCHAR(50)</Type>
-      </Column>
-      <PK>
-         <Key>idTypeEntretien, nomModele</Key>
-      </PK>
-      <FK>
-         <Key>idTypeEntretien</Key>
-         <Reference>TYPE_ENTRETIEN(idTypeEntretien)</Reference>
-      </FK>
-      <FK>
-         <Key>nomModele</Key>
-         <Reference>MODELE(nomModele)</Reference>
-=======
       <Column>
          <Name>nomIngredient</Name>
          <Type>VARCHAR(50)</Type>
@@ -625,7 +537,6 @@
       <FK>
          <Key>nomIngredient</Key>
          <Reference>INGREDIENT(nomIngredient)</Reference>
->>>>>>> origin/vlad
       </FK>
    </Table>
 </Database>
