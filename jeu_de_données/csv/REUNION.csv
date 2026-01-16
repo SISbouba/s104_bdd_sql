@@ -1,0 +1,21 @@
+idReunion,dateReunion,intitule,nomMachine,idLieu
+1,2026-01-10,Gala d'Hiver,Alpha,1
+2,2026-01-15,Session Novice,Beta,3
+3,2026-02-01,Banquet Ouest,Gamma,9
+4,2026-02-14,Tenrac Valentin,Delta,5
+5,2026-03-01,Réunion Secrète,Epsilon,11
+6,2026-03-15,Cérémonie Dignité,Zeta,2
+7,2026-04-01,Printemps Tenrac,Eta,4
+8,2026-04-20,Dégustation Saumon,Theta,6
+9,2026-05-01,Fête du Travail,Iota,7
+10,2026-05-15,Amicale Lille,Kappa,13
+11,2026-06-01,Summer Tenrac,Lambda,10
+12,2026-06-21,Fête Musique,Mu,14
+13,2026-07-01,Juillet Givré,Nu,15
+14,2026-07-14,Tenrac National,Xi,17
+15,2026-08-01,Août Fondant,Omicron,16
+16,2026-08-20,Vacances Sud,Pi,19
+17,2026-09-01,Rentrée des Classes,Rho,18
+18,2026-09-15,Automne Fromager,Sigma,20
+19,2026-10-01,Octobre Rose,Tau,8
+20,2026-10-31,Halloween Tenrac,Upsilon,12

@@ -1,0 +1,21 @@
+nomGrade,nomGradSuiv
+Affilié,Sympathisant
+Sympathisant,Adhérent
+Adhérent,Chevalier
+Chevalier,Commandeur
+Dame,Commandeur
+Commandeur,Grand’Croix
+Grand Chevalier,NULL
+Haute Dame,NULL
+Grand’Croix,NULL
+NULL,Affilié
+Novice,Compagnon
+Compagnon,NULL
+Maitre,Grand Chancelier
+Grand Chancelier,Grand Maître
+Grand Maître,NULL
+Protecteur,Honorable
+Honorable,Philanthrope
+Philanthrope,NULL
+Adepte,Affilié
+Postulant,Novice
